@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #373b44, #4286f4);;
+}
+
+.container {
+
+    background: linear-gradient(to right, #373b44, #4286f4);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.formCotainerTodo {
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    display: flex;
+    background-color: #2997E6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.todoTitleApp{
+    margin: 0;
+    align-self: center;
+    font-size: 50px;
+}
+
+.todoTitleTask {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.todoInputTitle {
+    background-color: #83BEE6;
+    padding: 8px ;
+    border-radius: 10px;
+}
+.todoSubmit {
+    background-color: #8530E6 ;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 10px;
+    box
+}
+
+.todosItems {
+    background-color: #09BCE6;
+    display:flex;
+    flex-wrap: wrap;
+}
